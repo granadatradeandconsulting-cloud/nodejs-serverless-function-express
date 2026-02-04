@@ -85,37 +85,3 @@ export default async function handler(
     });
   }
 }
-```
-
----
-
-### **STEP 4: Salva le modifiche**
-
-1. Scroll in basso
-2. Nel campo "Commit message" scrivi: `Update webhook for Retell AI`
-3. Click **"Commit changes"** (pulsante verde)
-
----
-
-### **STEP 5: Aspetta il re-deploy**
-
-1. Torna sulla tab di **Vercel**
-2. Vedrai che sta facendo un nuovo deployment automaticamente
-3. Aspetta 20-30 secondi finché vedi: ✅ **"Ready"**
-
----
-
-## **IL TUO WEBHOOK È PRONTO!**
-
-L'URL del webhook sarà:
-```
-https://nodejs-serverless-function-express-one-tau-55.vercel.app/api/hello
-```
-
----
-
-## **TESTA CHE FUNZIONI:**
-
-1. Apri nel browser:
-```
-   https://nodejs-serverless-function-express-one-tau-55.vercel.app/api/hello
